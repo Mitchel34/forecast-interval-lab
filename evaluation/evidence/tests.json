@@ -1,0 +1,79 @@
+{
+  "outcome": "pass",
+  "sanitized": true,
+  "protocol_sha256": "6381adbb7bd66cf3049e4637f0ef18161259ae8d1fba3639d377f79c9e18b2dc",
+  "independent_review_sha256": "508867cba2c84fc6fa07a92383dc9c249c5e7267deea8d0a5a579ccb8f98b984",
+  "core_sha256": "435c4bc645f9a0a7f762554b1f8467a52d63a851917409959c3543a9968d5c51",
+  "gate": "tests",
+  "summary": "All 31 ordinary behavior tests passed in a fresh timestamped run after verified priority-host clearance on CPython3.14.7. Separate independent exporter delta tests passed. Prior failed ordinary checks and post-hold execution deviation are preserved for coordinator disposition; no benchmark was invoked.",
+  "test_count": 31,
+  "failures": 0,
+  "errors": 0,
+  "ordinary_receipt_sha256": "37cc2a0178221649ccf4adad452365c80c3b4f3ffa22327349400cccfca2ba42",
+  "file_sha256": {
+    "tests/test_cli.py": "62f50744ef0b009e694ac02af2cd098cbd9fd58d3d70653976d7d3b901bfa785",
+    "tests/test_core.py": "d217d64834cb13dfcaa415d0b33c75cc95d7d9320d63a1d6faed2ef4a198789a",
+    "tests/test_reports.py": "f62da71178ec1c1ba0c9841c3022dabe253fdc8e8085c7e6d251414795b80df2"
+  },
+  "checks": [
+    {
+      "name": "thirty_one_behavior_tests_pass_after_clearance",
+      "passed": true
+    },
+    {
+      "name": "hand_quantile_and_score_examples",
+      "passed": true
+    },
+    {
+      "name": "minimum_calibration_and_decimal_rank_boundaries",
+      "passed": true
+    },
+    {
+      "name": "calibration_split_and_rolling_eviction_boundaries",
+      "passed": true
+    },
+    {
+      "name": "future_perturbation_preserves_earlier_predictions",
+      "passed": true
+    },
+    {
+      "name": "constant_series_and_determinism",
+      "passed": true
+    },
+    {
+      "name": "invalid_inputs_and_atomic_error_recovery",
+      "passed": true
+    },
+    {
+      "name": "strict_json_and_cli_demo",
+      "passed": true
+    },
+    {
+      "name": "distinct_metric_values_verify_csv_mapping",
+      "passed": true
+    },
+    {
+      "name": "private_marker_excluded_from_reports",
+      "passed": true
+    },
+    {
+      "name": "wrong_protocol_hash_rejected",
+      "passed": true
+    },
+    {
+      "name": "independent_tests_review_passed",
+      "passed": true
+    },
+    {
+      "name": "huge_json_integer_metrics_and_resources_rejected",
+      "passed": true
+    },
+    {
+      "name": "receipt_parser_recursion_error_translated",
+      "passed": true
+    }
+  ],
+  "supersedes_unaccepted_evidence_sha256": "d242600f2a66fd7a1ddec4b656b376547a5d2b3e479954cf92b85d739e043810",
+  "hold_deviation_preserved_sha256": "a5e5195752312179a721dc81b7c6c6ce679360fa97b9cd8cc79b1048aa648b82",
+  "fresh_post_clearance_tests_sha256": "37cc2a0178221649ccf4adad452365c80c3b4f3ffa22327349400cccfca2ba42"
+}

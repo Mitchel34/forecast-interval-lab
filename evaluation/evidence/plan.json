@@ -1,0 +1,43 @@
+{
+  "gate": "plan",
+  "outcome": "pass",
+  "sanitized": true,
+  "summary": "Protocol v1 freezes temporally ordered interval methods, original synthetic generators and a complete 90-metric workload. Separate independent plan review passed. This evidence is submitted for coordinator disposition before implementation.",
+  "protocol_sha256": "6381adbb7bd66cf3049e4637f0ef18161259ae8d1fba3639d377f79c9e18b2dc",
+  "spec_sha256": "3b6d6de01fc602462d4620c73c68863cf62b4691b82e28fa8c67a01a07a29153",
+  "independent_review_sha256": "e88232be6b42711eb308bf4524248d054aae89c6c0dc6f1cfa63b14adcdfb8c0",
+  "checks": [
+    {
+      "name": "protocol_definitions_and_hand_examples_reviewed",
+      "passed": true
+    },
+    {
+      "name": "all_ninety_metric_names_fit_unchanged_runner",
+      "passed": true
+    },
+    {
+      "name": "three_seed_limitations_explicit",
+      "passed": true
+    },
+    {
+      "name": "data_and_parameters_original_synthetic",
+      "passed": true
+    },
+    {
+      "name": "temporal_splits_and_update_order_frozen",
+      "passed": true
+    },
+    {
+      "name": "failure_behavior_and_acceptance_predeclared",
+      "passed": true
+    },
+    {
+      "name": "independent_plan_review_passed",
+      "passed": true
+    },
+    {
+      "name": "no_implementation_or_comparison_run_before_plan_gate",
+      "passed": true
+    }
+  ]
+}

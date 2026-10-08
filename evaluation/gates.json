@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "license_grant": "none_approved",
+  "gates": {
+    "plan": {
+      "status": "passed",
+      "summary": "Independent and coordinator review accepted frozen protocol.",
+      "evidence": [
+        {
+          "path": "evaluation/evidence/plan.json",
+          "sha256": "f9e5726d36e7b82b31f430235781e909bbdcdd9c4765944f6427d7a1c21b11fa"
+        }
+      ]
+    },
+    "implementation": {
+      "status": "passed",
+      "summary": "Coordinator accepted exact revised evidence after independent review and timestamped tests after clearance.",
+      "evidence": [
+        {
+          "path": "evaluation/evidence/implementation.json",
+          "sha256": "9442fad86de6e4128deab665f33922c8500733e1232df9989608fcae0aafb482"
+        }
+      ]
+    },
+    "tests": {
+      "status": "passed",
+      "summary": "Coordinator accepted exact revised evidence after independent review and timestamped tests after clearance.",
+      "evidence": [
+        {
+          "path": "evaluation/evidence/tests.json",
+          "sha256": "cd425b84649d7bf18a809e2e49133d8e2283a95ec40d5f46df14676068cf18d8"
+        }
+      ]
+    },
+    "evaluation": {
+      "status": "passed",
+      "summary": "One actual invocation: 90 metrics, 12 passing checks, child reaped and lease released; independent closeout review passed.",
+      "evidence": [
+        {
+          "receipt_sha256": "24933fc412a2e75edbe94f2bf769beaa3804eacba91f5e0fbbfa95291d8387c3"
+        },
+        {
+          "path": "evaluation/results/results.json",
+          "sha256": "f447211cb3d33054f20d2c116bcfda99a852309a4104dd0bc6acf70b53119770"
+        }
+      ]
+    },
+    "docs": {
+      "status": "pending",
+      "summary": "",
+      "evidence": []
+    },
+    "publication_review": {
+      "status": "pending",
+      "summary": "",
+      "evidence": []
+    }
+  },
+  "snapshot_scope": "Historical snapshot after evaluation and before installation/documentation/publication closeout. This file is not a live delivery status.",
+  "project_state_at_snapshot": "evaluation_passed_installation_pending"
+}

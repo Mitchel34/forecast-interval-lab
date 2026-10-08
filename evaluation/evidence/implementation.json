@@ -1,0 +1,63 @@
+{
+  "outcome": "pass",
+  "sanitized": true,
+  "protocol_sha256": "6381adbb7bd66cf3049e4637f0ef18161259ae8d1fba3639d377f79c9e18b2dc",
+  "independent_review_sha256": "508867cba2c84fc6fa07a92383dc9c249c5e7267deea8d0a5a579ccb8f98b984",
+  "core_sha256": "435c4bc645f9a0a7f762554b1f8467a52d63a851917409959c3543a9968d5c51",
+  "gate": "implementation",
+  "summary": "Original shared core, sequential API, strict JSON CLI and receipt-only exporter follow frozen protocol. Independent technical review v2 passes exact source, including explicit deep JSON and huge integer export errors. Historical hold deviation remains for coordinator disposition; complete comparison unexecuted.",
+  "file_sha256": {
+    "forecast_interval_lab/core.py": "435c4bc645f9a0a7f762554b1f8467a52d63a851917409959c3543a9968d5c51",
+    "forecast_interval_lab/cli.py": "0de31f171af72a99a9f6e954d054ab8ac9895fe9d6e1e2c79d3c89d8d0acaa0e",
+    "forecast_interval_lab/reports.py": "36272789da65c0b96b8354a06ab08962d670c36f3042d7f259acad7b1dcbe9be",
+    "forecast_interval_lab/__init__.py": "b688ddcb787eeb8bacb43d1775c08550f03ab519905a436b295eeb45e2cc712c",
+    "forecast_interval_lab/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "pyproject.toml": "341f015fbbdd640414e0c12cd2f26049a261184d77b15f60ab785501d93cebb0",
+    "examples/demo.json": "c708eee9709a4470fbab9ef6392d8ac62ec87f56c800f51c6e8c606b0bb574f2"
+  },
+  "checks": [
+    {
+      "name": "independent_exact_source_review_passed",
+      "passed": true
+    },
+    {
+      "name": "past_only_prediction_update_order",
+      "passed": true
+    },
+    {
+      "name": "deterministic_ordered_finite_demo",
+      "passed": true
+    },
+    {
+      "name": "explicit_input_and_state_errors",
+      "passed": true
+    },
+    {
+      "name": "failed_observation_recovery",
+      "passed": true
+    },
+    {
+      "name": "production_static_ast_contract",
+      "passed": true
+    },
+    {
+      "name": "receipt_only_exports_preserve_all_ninety_values",
+      "passed": true
+    },
+    {
+      "name": "exporter_pins_frozen_protocol",
+      "passed": true
+    },
+    {
+      "name": "original_stdlib_only_cpu_design",
+      "passed": true
+    },
+    {
+      "name": "exporter_huge_integer_and_nesting_errors_explicit",
+      "passed": true
+    }
+  ],
+  "supersedes_unaccepted_evidence_sha256": "10f284d34b159d014fa7b807629ec9891cbd4bb03cacb49e4755120ba928ed86",
+  "hold_deviation_preserved_sha256": "a5e5195752312179a721dc81b7c6c6ce679360fa97b9cd8cc79b1048aa648b82",
+  "fresh_post_clearance_tests_sha256": "37cc2a0178221649ccf4adad452365c80c3b4f3ffa22327349400cccfca2ba42"
+}

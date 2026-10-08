@@ -1,0 +1,73 @@
+{
+  "schema": "forecast-offline-installation/1",
+  "outcome": "passed",
+  "package": "forecast-interval-lab",
+  "version": "0.1.0",
+  "source_manifest_sha256": "7c78090514db19b398859ced91b84d9f6ae2aeb01fc895c34b6b0895249781f6",
+  "receipt_sha256": "3b0ec29d7b0d7ea230434547e2720fe65d23f6e41afafcaddcc193e5448a44e9",
+  "wheel_sha256": "1580becff182236915bc6f7f30f44a67861976b54cc6d0079c431d8e4fb03ba5",
+  "build_toolchain": {
+    "pip": "25.1.1",
+    "python": "3.11.13",
+    "setuptools": "80.9.0",
+    "system_distutils_config_absent": true,
+    "wheel": "0.45.1"
+  },
+  "installed_python": "3.14.7",
+  "tests_run": 31,
+  "tests_passed": true,
+  "outside_source_tree_verified": true,
+  "clean_environment": true,
+  "offline_no_index": true,
+  "no_dependencies_downloaded": true,
+  "module_sha256s": {
+    "forecast_interval_lab/__init__.py": "b688ddcb787eeb8bacb43d1775c08550f03ab519905a436b295eeb45e2cc712c",
+    "forecast_interval_lab/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "forecast_interval_lab/cli.py": "0de31f171af72a99a9f6e954d054ab8ac9895fe9d6e1e2c79d3c89d8d0acaa0e",
+    "forecast_interval_lab/core.py": "435c4bc645f9a0a7f762554b1f8467a52d63a851917409959c3543a9968d5c51",
+    "forecast_interval_lab/reports.py": "36272789da65c0b96b8354a06ab08962d670c36f3042d7f259acad7b1dcbe9be"
+  },
+  "build_source_sha256s": {
+    "README.md": "a5e45fe6fa61d1a3194b6149002b338fd1a60bcc092064d276c6447edfd7075e",
+    "forecast_interval_lab/__init__.py": "b688ddcb787eeb8bacb43d1775c08550f03ab519905a436b295eeb45e2cc712c",
+    "forecast_interval_lab/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "forecast_interval_lab/cli.py": "0de31f171af72a99a9f6e954d054ab8ac9895fe9d6e1e2c79d3c89d8d0acaa0e",
+    "forecast_interval_lab/core.py": "435c4bc645f9a0a7f762554b1f8467a52d63a851917409959c3543a9968d5c51",
+    "forecast_interval_lab/reports.py": "36272789da65c0b96b8354a06ab08962d670c36f3042d7f259acad7b1dcbe9be",
+    "pyproject.toml": "341f015fbbdd640414e0c12cd2f26049a261184d77b15f60ab785501d93cebb0"
+  },
+  "original_test_sha256s": {
+    "tests/test_cli.py": "62f50744ef0b009e694ac02af2cd098cbd9fd58d3d70653976d7d3b901bfa785",
+    "tests/test_core.py": "d217d64834cb13dfcaa415d0b33c75cc95d7d9320d63a1d6faed2ef4a198789a",
+    "tests/test_reports.py": "f62da71178ec1c1ba0c9841c3022dabe253fdc8e8085c7e6d251414795b80df2"
+  },
+  "demo": {
+    "fixture": "examples/demo.json",
+    "fixture_matches_demo_bytes": true,
+    "hand_checked_intervals_and_scores": true,
+    "predictions": 3
+  },
+  "comparison_and_evaluate_guarded": true,
+  "installed_bytes_unchanged_after_tests": true,
+  "resource_observations": {
+    "measured_wait4_cpu_seconds": 3.4914229999999997,
+    "active_execution_wall_seconds": 4.4618417921010405,
+    "staging_allocated_bytes": 13864960,
+    "resource_observation_scope": "wait4 direct-child/platform waited-descendant accounting; RSS checked after return",
+    "measured_cpu_is_lower_bound_excluding_supervisor_and_receipt_work": true,
+    "hard_process_tree_resource_limits": false,
+    "memory_hard_limit": false,
+    "sampled_no_live_heavy_work_before_each_step": true,
+    "atomic_inter_owner_heavy_exclusion": false,
+    "shared_heavy_lease_acquired": false,
+    "descendant_cleanup_scope": "normal synchronous trusted-tool return; no independent process-tree census"
+  },
+  "limits": {
+    "cpu_seconds": 60.0,
+    "disk_bytes": 268435456,
+    "memory_bytes": 268435456,
+    "wall_seconds": 120.0
+  },
+  "wheel_rebuild_bitwise_identity_claimed": false,
+  "scope": "One observed offline build/install. Python3.11 was the build toolchain; runtime behavior verified on3.14.7 only. No binary wheel or private installer logs published."
+}

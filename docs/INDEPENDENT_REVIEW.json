@@ -1,0 +1,37 @@
+{
+  "schema": "forecast-independent-review/1",
+  "scope": "Independent plan, implementation/tests, measured-report and offline-installation reviews. Exact-commit publication review and remote readback are separate external records.",
+  "reviewer": "Separate review agent, not the implementation author",
+  "decision": "pass_for_listed_source_and_artifact_hashes",
+  "protocol_sha256": "6381adbb7bd66cf3049e4637f0ef18161259ae8d1fba3639d377f79c9e18b2dc",
+  "file_sha256": {
+    "evaluation/PROTOCOL.md": "6381adbb7bd66cf3049e4637f0ef18161259ae8d1fba3639d377f79c9e18b2dc",
+    "forecast_interval_lab/core.py": "435c4bc645f9a0a7f762554b1f8467a52d63a851917409959c3543a9968d5c51",
+    "forecast_interval_lab/cli.py": "0de31f171af72a99a9f6e954d054ab8ac9895fe9d6e1e2c79d3c89d8d0acaa0e",
+    "forecast_interval_lab/__init__.py": "b688ddcb787eeb8bacb43d1775c08550f03ab519905a436b295eeb45e2cc712c",
+    "forecast_interval_lab/reports.py": "36272789da65c0b96b8354a06ab08962d670c36f3042d7f259acad7b1dcbe9be",
+    "tests/test_core.py": "d217d64834cb13dfcaa415d0b33c75cc95d7d9320d63a1d6faed2ef4a198789a",
+    "tests/test_cli.py": "62f50744ef0b009e694ac02af2cd098cbd9fd58d3d70653976d7d3b901bfa785",
+    "tests/test_reports.py": "f62da71178ec1c1ba0c9841c3022dabe253fdc8e8085c7e6d251414795b80df2",
+    "pyproject.toml": "341f015fbbdd640414e0c12cd2f26049a261184d77b15f60ab785501d93cebb0"
+  },
+  "current_passing_test_count": 31,
+  "resolved_findings": [
+    "Exporter fixture now gives every metric a distinct value to detect mapping errors.",
+    "Exporter requires the exact frozen protocol digest.",
+    "Deep JSON test now accommodates interpreter recursion limits; explicit error translation is independently checked.",
+    "Exporter converts excessive receipt nesting and huge integer numeric values into explicit errors."
+  ],
+  "complete_comparison_executed": true,
+  "installation_verified": true,
+  "verification_history": "Earlier ordinary checks included one corrected assertion failure and checks during a misread temporary execution hold. Records are retained; the final 31-test run and independent exporter delta tests occurred after verified clearance. Workflow disposition remains with the coordinator.",
+  "evaluation_receipt_sha256": "24933fc412a2e75edbe94f2bf769beaa3804eacba91f5e0fbbfa95291d8387c3",
+  "evaluation_closeout_review": "Separate independent coordinator reviewer verified all 90 values, 12 passing checks, source/proof consistency and process/lease closeout.",
+  "measured_report_review_sha256": "a9032779941b6daa975f15b311acee2384bcd41eb9c4e3705f0ac7008adfe633",
+  "independent_installation_terminal_review_sha256": "57bbd4d5fc402cd9b516a32549906752d61692278879fe35a29a3ef725771501",
+  "installation_receipt_sha256": "3b0ec29d7b0d7ea230434547e2720fe65d23f6e41afafcaddcc193e5448a44e9",
+  "wheel_sha256": "1580becff182236915bc6f7f30f44a67861976b54cc6d0079c431d8e4fb03ba5",
+  "installed_test_count": 31,
+  "installed_module_count": 5,
+  "evaluation_result_sha256": "f447211cb3d33054f20d2c116bcfda99a852309a4104dd0bc6acf70b53119770"
+}
